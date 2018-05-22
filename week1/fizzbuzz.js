@@ -15,7 +15,7 @@ function test() {
     arr.push(i);
   }
   let updatedArray = fizzbuzz(arr);
-  updatedArray.array.forEach(element => {
+  updatedArray.forEach(element => {
     console.log(element);
   });
 }
